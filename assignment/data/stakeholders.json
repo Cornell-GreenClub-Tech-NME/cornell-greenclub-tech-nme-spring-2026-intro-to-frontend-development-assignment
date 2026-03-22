@@ -1,0 +1,122 @@
+[
+  {
+    "name": "So Poong",
+    "phone": "6073390064",
+    "address": "147 Dryden Rd, Ithaca, NY 14850",
+    "subteam_tag": "Glimpse",
+    "stakeholder_type": ["Restaurant"],
+    "lat_long": [42.441559527299084, -76.48583341930244],
+    "greenclub_primary_contact": "Justin",
+    "last_contact_date": "11062025",
+    "general_notes_and_dates": [
+      {
+        "note": "Already has a dedicated container to food scraps - maybe we can pitch",
+        "date": "11112025"
+      }
+    ]
+  },
+  {
+    "name": "Anabel's Grocery",
+    "point_of_contact": "Anke Wessels",
+    "email": "akw7@cornell.edu",
+    "phone": "6072551441",
+    "address": "Anabel Taylor Hall Room 127, 548 College Ave, Ithaca, NY 14853",
+    "website": "https://www.anabelsgrocery.org/",
+    "subteam_tag": "Echo",
+    "stakeholder_type": ["Nonprofit", "Grocery Store"],
+    "lat_long": [42.44531069765832, -76.48577278784359],
+    "greenclub_primary_contact": "Suri",
+    "last_contact_date": "11102025",
+    "general_notes_and_dates": [
+      { "note": "Collaborated in the past!", "date": "11102025" },
+      { "note": "Now in contact!", "date": "03202026" }
+    ]
+  },
+  {
+    "name": "GreenStar Food Co+op (Collegetown)",
+    "phone": "6078822667",
+    "address": "307 College Ave Ste 1, Ithaca, NY 14850",
+    "website": "https://greenstar.coop/",
+    "subteam_tag": "Asphalt",
+    "stakeholder_type": ["Co-op"],
+    "lat_long": [42.440674099103205, -76.48474925007717],
+    "greenclub_primary_contact": "Janet",
+    "last_contact_date": "11072025"
+  },
+  {
+    "name": "Cayuga Compost",
+    "phone": "6073876826",
+    "address": "3225 Agard Road, Trumansburg, NY 14886",
+    "website": "https://cayugacompost.com/",
+    "subteam_tag": "Food Waste Gaps",
+    "stakeholder_type": ["Compost Site"],
+    "lat_long": [42.5234558257095, -76.62235863306404],
+    "greenclub_primary_contact": "Arnav",
+    "last_contact_date": "11032025"
+  },
+  {
+    "name": "Friendship Donations Network",
+    "point_of_contact": "Meaghan Sheehan Rosen, MSW",
+    "email": "info@friendshipdonations.org",
+    "phone": "6072169522",
+    "address": "1013 West Martin Luther King, Jr. / State Street Ithaca, NY 14850",
+    "website": "http://friendshipdonations.org/",
+    "subteam_tag": "Food Waste Gaps",
+    "stakeholder_type": ["Compost Site"],
+    "lat_long": [42.44044388290885, -76.51367305641729],
+    "greenclub_primary_contact": "Yilin",
+    "last_contact_date": "11042025"
+  },
+  {
+    "name": "Rethink Food",
+    "point_of_contact": "Will Fleming",
+    "email": "willf@rethinkfood.org",
+    "phone": "2123647040",
+    "address": "116 W Houston St, New York, NY 10012",
+    "website": "https://www.rethinkfood.org/",
+    "subteam_tag": "Glimpse",
+    "stakeholder_type": ["Nonprofit"],
+    "lat_long": [40.728279457688664, -73.99899070768832],
+    "greenclub_primary_contact": "Justin",
+    "last_contact_date": "11072025",
+    "general_notes_and_dates": [
+      {
+        "note": "Huge non-profit for reusing food and creating meals. Operates like a businesses - struggles with generate positive cash flow to reinvest in business. Potential collaboration opportunities",
+        "date": "11072025"
+      }
+    ]
+  },
+  {
+    "name": "Bibibowl",
+    "website": "https://bibibowlusa.com/",
+    "subteam_tag": "Glimpse",
+    "stakeholder_type": ["Restaurant"],
+    "lat_long": [42.442165849388466, -76.48465248361549],
+    "greenclub_primary_contact": "Suri",
+    "last_contact_date": "11122025",
+    "general_notes_and_dates": [
+      {
+        "note": "Fun little restaurant",
+        "date": "11122025"
+      }
+    ]
+  },
+  {
+    "name": "660 Stewart Cooperative",
+    "address": "660 Stewart Ave, Ithaca",
+    "stakeholder_type": ["Co-op"],
+    "lat_long": [42.4484793, -76.4910821]
+  },
+  {
+    "name": "Buffalo Street Books",
+    "address": "215 N Cayuga St, Ithaca",
+    "stakeholder_type": ["Co-op"],
+    "lat_long": [42.441218, -76.498352]
+  },
+  {
+    "name": "Cayuga Landscape Co",
+    "address": "141 Ithaca Cmns #7, Ithaca",
+    "stakeholder_type": ["Co-op"],
+    "lat_long": [42.5102043, -76.4916839]
+  }
+]
