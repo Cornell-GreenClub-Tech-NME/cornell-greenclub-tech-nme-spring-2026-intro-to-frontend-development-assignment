@@ -9,7 +9,7 @@ function formatPhone(phone) {
 }
 
 function App() {
-  const [selectedItem, setSelectedItem] = useState(null);
+  const [selectedStakeholder, setSelectedStakeholder] = useState(null);
 
   return (
     <div className="container">
@@ -42,7 +42,7 @@ function App() {
               <td className="notes">
                 <button
                   className="view-more"
-                  onClick={() => setSelectedItem(item)}
+                  onClick={() => setSelectedStakeholder(item)}
                 >
                   View More
                 </button>
@@ -52,8 +52,11 @@ function App() {
         </tbody>
       </table>
 
-      {selectedItem && (
-        <Modal item={selectedItem} onClose={() => setSelectedItem(null)} />
+      {selectedStakeholder && (
+        <Modal
+          item={selectedStakeholder}
+          onClose={() => setSelectedStakeholder(null)}
+        />
       )}
     </div>
   );
