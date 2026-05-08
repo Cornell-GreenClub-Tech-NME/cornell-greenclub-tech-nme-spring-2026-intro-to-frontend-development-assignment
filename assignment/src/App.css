@@ -1,1 +1,99 @@
 /* TODO (Table): Style your table! */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Proxima Nova', 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f5f7f6 0%, #e8f5e9 100%);
+  color: #333;
+  line-height: 1.6;
+}
+
+.app-header {
+  background: linear-gradient(135deg, #069104 0%, #0a7a0a 100%);
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(6, 145, 4, 0.15);
+  margin-bottom: 40px;
+}
+
+.app-header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 95%;
+  margin: 0 auto 40px;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+table thead {
+  background: linear-gradient(135deg, #069104 0%, #0a7a0a 100%);
+  color: white;
+}
+
+table thead th {
+  padding: 16px 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.2s ease;
+}
+
+table tbody tr:hover {
+  background-color: #e8f5e9;
+}
+
+table tbody td {
+  padding: 14px 12px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+table tbody tr:last-child {
+  border-bottom: none;
+}
+
+table button {
+  background: linear-gradient(135deg, #069104 0%, #058203 100%);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(6, 145, 4, 0.2);
+}
+
+table button:hover {
+  background: linear-gradient(135deg, #058203 0%, #046a02 100%);
+  box-shadow: 0 4px 8px rgba(6, 145, 4, 0.3);
+  transform: translateY(-2px);
+}
+
+table button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(6, 145, 4, 0.2);
+}

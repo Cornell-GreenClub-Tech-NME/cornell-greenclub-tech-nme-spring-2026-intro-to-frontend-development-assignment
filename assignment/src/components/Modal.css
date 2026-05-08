@@ -1,1 +1,103 @@
 /* TODO (Modal): Style your modal! */
+
+/* Overlay: covers the full screen with a dark backdrop */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(2px);
+}
+
+/* Modal box */
+.modal-content {
+  background: white;
+  border-radius: 12px;
+  padding: 32px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 10px 40px rgba(6, 145, 4, 0.15);
+  border-top: 4px solid #069104;
+  font-family: 'Proxima Nova', sans-serif;
+  animation: modalSlideIn 0.3s ease-out;
+}
+
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Close button in the top-right corner */
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #999;
+  transition: color 0.2s ease;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.modal-close:hover {
+  color: #069104;
+  background: #e8f5e9;
+}
+
+/* Typography inside the modal */
+.modal-content h2 {
+  margin: 0 0 24px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #069104;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -0.3px;
+}
+
+.modal-content p {
+  margin: 12px 0;
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+  line-height: 1.5;
+}
+
+.modal-content a {
+  color: #2a7a2a;
+  text-decoration: none;
+}
+
+.modal-content a:hover {
+  text-decoration: underline;
+}
+
+/* Notes list */
+.modal-content ul {
+  margin: 8px 0;
+  padding-left: 20px;
+}
+
+.modal-content li {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
